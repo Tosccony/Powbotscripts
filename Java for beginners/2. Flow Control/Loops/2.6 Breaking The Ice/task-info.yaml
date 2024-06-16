@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: continue;
+    is_correct: false
+  - text: machineOn = false;
+    is_correct: true
+files:
+  - name: src/BreakingTheIce.java
+    visible: true
+    encrypted_text: 1cy/Nee1DGx7uA/v8Cu30go8Qcg9JUAHD9he2x+yQ0w0fQHAhw9pd9akq41bNNO+R4bfY5wesR/RhqaPiSjFfHaAIvq/VU/KtEO5nzzG6jE7peLZnpzn4khz85HDcCmlHOdQbz8bgNZWIZTwtj2ovVwnm4MQ98Nc1KAGmNflI3Eji49hm+IkITv+0Crmk1xMmqXINl8hHGYOGhVnoVSv/5zjAW+k9TAs4oESQ9vB7Qa9p1bfibCEA2jLVs3omvCoREhil4ZhQmbEhxdv2Q7QlSq8HIKmtpnu5GB4bZDUifMXZIdUqmSl2RAheyCBV4F8rUy8SKrBJrQXKe5A0MXqbsAdOOOl+X/+V6sBKflK5xHJgqeenkL39Ibq5InRm7eOhjQxi1/MrmP7AkrbU30qXzS77DipwmYHiQIPCXVt2wzTjrwaJ4rS+D32gyIlnk3bsoE11xSIH5XBNmt1kYZDUwc0IDMz+vpO7nymBeswsig+nXvCI7YqROGtyY3eBS5+A3bSsfdj+aKuLARX3Wo+SXn+kbLVl3vWXstmSn57efHxp7vPE0SX/yeUKtGsna8YHQU+Z5DclMrgco6MuonlvJ7nRb7/Geq7xlHE+/FI3sbvgeZtQWiyQHYc2UtZTLM3DQDnzb7RCzmqIlEiIj6c2fuS60CctaHIfaqCu9CKkQXUZJhBzjdSWGmZQiDV3mXLKg1SrZ3jZHmCrMdaj55dREu56rcLXSzInyCzagAmL3734RUQ+q7yDUU6bvZ9QPlDxqWMsYbkbFAH25meRdRm/MGWCc++c/5nWAfTsdXIgqs=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: src/GetShortestWord.java
+    visible: true
+    placeholders:
+      - offset: 125
+        length: 67
+        placeholder_text: /* Code a method that returns the shortest word of the two inputs*/
+        initial_state:
+          length: 67
+          offset: 125
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: bHFGXImwHJv+cRk9TWcTxFz1cmwV9ylC1bdlHpcgrYiM3KxxRywF/2vF5cGit4VHkyikzBOel20en+zzTzvN3qqHXp9P7CV14eEV/RUYC2z4K0ODKvSNN61ykYWTVTQzZKORLoERRC2VE7UpvGHvJChMB4tZ7sxW8xwg6VjyY4N+gDYdmshavyYDwKHj1cqfdiIKKUd5YeydIfQIbXX8NXeSBhgLB7jWlNn31Eo1buJ8xXcBkz1KD+o98SRL2E+P
+    encrypted_text: H0bXtKI52TJ4B3JMHl9g7kpB01J+3nMixaTlqZ58dG+GpE+FwjaHDos7OWhczutkl7DmCd4hD6PGy7UUvIsQTgJnrJtoXCBVl7fUCRUj8ozOQzHlTS31Sqe+eW+6SgstIxDJSnDnR3eTvYTEKqu9BrV/SntgHbtx+UnAdwcAV/xmXTAXE8MlmCFt8ITaFOQ1xI2uFapTj+d59KcfVTSzCs/SKxIe4JCmuKjaiYbREZkgnNPJKVHntpQy6aOmZMrApNW18Eq76Y6iRwPLO5xvcw==
+    learner_created: false
+  - name: test/ShortestTests.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nLOMtF4WlUsihBh5jN3l13uyooai5P8u0LMlLQ4i5q+268mANlauP0XXKhKVAzI//myYjEhc0SJ+8mD/qMt5vf+9IurIZ4r8jl8hgVv5z8JGOCb/NmnHnXn/GXfbAQA3uaVATy/d923fCLlvfF+gAiLEr8gdROkAKDGSuVCPR0iY+C+x3y/S3T7CQBy84ykSJduPEP+K20FTOFDJWTINVWY/CA6SHjBB28tjyKFF3LpMTV1LRnIYU2qW/xKX3u3ek/NRrrlpBif/ql+g2TZimILeGU3bXpi9TRMAFEk//utrzA7vRo2bFPFkK1hQLbmaN+ATH4EBvFSi/BAkDAFrxPeza6alw+y0lPVYHyQf2GOgL1RitJ2InVPvO3QmwLSVmR7h2tkjGlOuacLbthtAp2CrkypHQ7DGYodewcZ6TDlYTYs7kotjiCYh23A0/kRk5A==
+    learner_created: false
+status: Unchecked
+record: -1

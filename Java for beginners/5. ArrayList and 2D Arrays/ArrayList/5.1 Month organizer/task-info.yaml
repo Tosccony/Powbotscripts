@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 4 - 2 - 1 - 3
+    is_correct: false
+  - text: 2 - 4 - 3 - 1
+    is_correct: true
+  - text: 3 - 1 - 4 - 2
+    is_correct: false
+  - text: 2 - 4 - 1 - 3
+    is_correct: false
+  - text: 1 - 4 - 3 - 2
+    is_correct: false
+files:
+  - name: src/MonthOrganizer.java
+    visible: true
+    encrypted_text: NYgHoNruO3t7vIi6YFhoH8OQg22cUzmYUe9oJbRusBcHNsgNNPHTnAW8JWzvbLUkPBcf8aNXAJmdVyAHdSDNmuda1SCco7yLLEDIc8AQpuS1LWyW6b8g0YP2AH19Z5WGh75fBr3bK6TXyObdY8m/9xmenGkGq25AUUS42IsACJc47+BAa3J+q8amXu1hNSzbmuttz+tOnZBeOL4vBsPmTkV3N+TcSgnLRe0lrKDHuT22oz/1jvtIHVDTaUEu1cfSNZCK/A3T4ugiaX26lmvAoGuKYjGdcAcOuesgAaTtppMtDqCA1QBywphp6IYkVFekMwFwQWFrPlnSMTKa51d7i4TCoXkydDsPmyVb6ngXixZoqWIARXBITz3/RXN8VF1LawEl/rCqRy+gWZK+GV5ryQQAQF4QtscnWbnAk8mnGcrIhXwgy6PZj6WEJf5Qu0vikf0ef73YcwsTpGzFFkrXYADw1q8TG0ZWAuPhcFF/k5HT/6diL0lDr3e2RJ3/LuHN268UVj5sDbJFn0IUnMyY4jQQQvMG+oBMPFa2XTNWDVUho+hPqnfUXzxb8Lfxq73X
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

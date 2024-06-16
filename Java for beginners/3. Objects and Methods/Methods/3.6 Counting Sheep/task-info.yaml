@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: src/Sheep.java
+    visible: true
+    placeholders:
+      - offset: 186
+        length: 56
+        placeholder_text: /* Add 1 to the Sheep count everytime one is created. */
+        initial_state:
+          length: 56
+          offset: 186
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: tZPJwI61bNWS1wcUFVHI703pkL9p3iM9n/wz5X5N9DDM5W4Ssdfo6zv8hfi2Gp7U
+    encrypted_text: FxcYbDzxZMU/7vLFAwhbl29XYcQ082DtIbj+Y0bBxX0F57O59m9FhFijlbo3iW4b8ySC0y+UuhQ8I4Dz4ftq6SurLYvmtT3/pKQNQY+iKJpejWLsjizuZZp3bqOciR286NQXLiODlsbrdgyrA2t3P1eKrJKkv2CPG5hPKb46pIq+tWPgwTQazxUB9w0pRu8lUxjl5xKDk86jVPAxb5ZmxfRgQW8Q1jbmGLserxjaDibDuo8Pi7GnZaiI7+wPBbxzLOKNXYu7Cy6nEOeizvK9QnzG0KjStht4R8QgVC32W6RgYBW0JKfwJS2ojf0bmZTMtp5BiVn+kUkoAI6aHwytaw==
+    learner_created: false
+  - name: test/SheepTests.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nELYfladGZWDUrKFjXZLNPDpD+ixobhbrJ/2kid8rWwa8EWo0FQzGTMGJdwTdB5HiEPuFdxjqoYF4gz4KHHR1GFqu7HD1h0zaj1I72c+oOjlC+oudwCyl3er+/mmFMc9U07VgjzOBb+FlHZdP3fItAGI9vpjZ0UaUpOM2L4pHACN96zZ7suS4A6r4sQq4TMFGYlrpMTJ2QTKhPjxwqXrvzNODk/rdtsJBUBGPy/yzZ2GdfyP0mUrUzhw1YIBLm499I6XLCocsYpByLV7mtVatuhHLzQDs2/3I8ddPWdNYtGzubp1eRkfLLoNuWwcl+fsX/Mkzt+Xd6u7SvVkvqjytpVpVYKUtfHa0623U4TsHUaD0ELPffcKhLL5acQdeSDlZn43nUEfwhS5Y7+UzZnE+bVm7YBLvgJDVItBYRFGBgXHuiJuZ/j3hxmZo5SYNOrgacrqevfd3YNVBXkvPA6dPy53qMOrjRcx/Se3He+UsoJaS22cuy3HB5E/nv/jwU/ZHru6MjGo1nQxX6uU0Edod3ygswEMo5oP0hv+gdZlmrOYTFCmY2UI8gn7rT5uKppNTQ==
+    learner_created: false
+status: Unchecked
+record: -1

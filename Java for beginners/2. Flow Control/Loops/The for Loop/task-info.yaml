@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/TheForLoop.java
+    visible: true
+    encrypted_text: hemEBjSi/m+a+v40K88xhQcw22XSYpk7eVWWKD/dbr4ujkHDMEfG7QWFMtRxNS7hMij9E0aJTAUOiR81IJz7t12SKsL2rn7b1qoYktjHYlS9F1HGnS/Py8NW4ywiYcHunjF0V7tgT9A9iijC+T4Sv9YdCcH2QG5RYo1h8OvWh+IUNuJaOsFqu05cVb8g9OOnavip5BgUtR2wNwQCkSShnLp6Oyq7/+EJ1Nvly3yPRHjV30Wtm36U7HZyFsHo6pmIXYNT4UI5LfKxvK1hib/eB8L/q7+JsaEDflwORhhnxtgK5FOi0qN42cWMoAQruk8Gj2PmG+5NKo4Ha2hyPYliQrhJwUUrcVt4lxd7E3F4X7sULXD90YOyNMIxp/6h2kNGX9dvSXt80QekhDArWOK0oHenencXSXOnzhJJY9BqtX22ItTWiwhAEvc6cpAsJrfTtmg4r9xwZAfQBauBLrQPtg==
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

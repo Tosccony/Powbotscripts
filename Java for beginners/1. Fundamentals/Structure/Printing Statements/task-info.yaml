@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/PrintingStatements.java
+    visible: true
+    encrypted_text: G+6rMpgwK8XB6UDouZyL5+JfwlOKlCSgMrOPdwoP4Pf7No6lqnnLcRNo7o3eTEjgpomI4P9sRUqSPODD1k08LgJzUi7TwjEDZBKl1VMA9IBroqC/B4visM+OgXA1rYoVOFLSBkw0A1MaQKi3O+MqClnq+/I7+buodFOaD/lhYUqASO5uE3KxJ9WWWKCMN7pdcoTmzoHhZ0kNDvuCj1Dl/OZahChLIw/lYXSNGsyjDUIefoM/fZzf/lMfHU24zjhOBsdHc26vzBCcZ0B3ElDnD0Q7j0QTWfP0fwfAGBVCgMXu//7uCeiszJ1fpIxA8ZmJRZIAizdpOwPg1twi5ICRLg==
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

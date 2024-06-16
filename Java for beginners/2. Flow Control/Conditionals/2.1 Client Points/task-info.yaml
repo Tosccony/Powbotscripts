@@ -1,0 +1,37 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: ++b5iBjwXvTiZr7Ni+rPCjd19Jm4tR+lnahaEwUwgBHFqxFXxWFZlJxITbgg+5jB+QUpMmBq+2wMDOfa/SoOxVVHeSTh0h/xFAZU0XPMb71Z9Zu74KUUMURrXildpbYdin4mc0sTXz89Bf5WQrcPJtDejCXl3UiWxMH5qiXR8hXVAi5BqPPgE+VatMzpNG7Tpj5kL4vQZEnyuvHiC/bXxJZ82S0BwjKoFP3z/hYOVr4=
+    learner_created: false
+  - name: src/ClientPoints.java
+    visible: true
+    placeholders:
+      - offset: 94
+        length: 39
+        placeholder_text: /* Replace with an appropriate value */
+        initial_state:
+          length: 39
+          offset: 94
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: tOBZruASZDyNTMhFnKhISw==
+      - offset: 163
+        length: 39
+        placeholder_text: /* Replace with an appropriate value */
+        initial_state:
+          length: 39
+          offset: 163
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 1qQ9kQ9eUXSirgUkxBvydQ==
+    encrypted_text: Z+pxnoIO0p/ymOBPtv9609PQEhXbXuZVQkViizT27ALskF0bA0eZ5a8aEHWwok+NRVaHlsm/+kl6hGnEZt5D7si+RAJ0l2s4u/JpxeyU3xvlFaz3Qjzlf3zhs6Q0qiZ8+4sL94BP4HGn2n4a1hy41adShe9udTxiCqkzZx09deWNe98KLT/Hy3gLKn96lKmcmUQrQT1LL8g17PdAv1tYHIGEnCKVmu0oDKwEqXDtMCjKFFTOCv9Kvyo8qOcaaOFJmYx22OtyESByKv3Y0B1NAOlE6rZLF+dIJchXOYlevT88WrLzhJIPQByQVRrwC1X2G+x/BrD+uDyFbNZudmVQLxngzHs7xr6sLeimTP4+B9sfYyHKYL/M9KJjkH3a8GCn6pq98OuYDAuFltKR08sBn299zYZC5Pk9fO05N/cr5n8PI54Oe3uepQfAsV2RV++/QXHtD/rsCFFUcEwtgGj3P1hNGWQKFdBpEfZyRh2HWWOr2lbIEsZ1etR8NiiK2tQj+jKzW7JcFjebXyA1trccAYUGWWb/aFlqjjkueRv7EiUJo+zoHMMXPeyAIDGcd29Wqym/NRP/cSfoWY0IOxPe1IrWDfMOBRwbb0A32Ja2omNDT3ELumpbNU5OazxLdMlEO+T10LpKLsDOjketH93TaWdDh+0pdvreWv/moHaSqyFxYBWAAuYZM9rCdNtDC400lvljLGpM8+wx0KFDGCn9619eAhqoMYBnTbYk8x2aw8iYo+2rWmbPoQlFqn+fNB1WeVfGADNHtlTWvI9k7yT9lMgR6BcJzAUvN0hdNkkh83a+qTse3HPGldWnZQL97rMcHwa1iOZLB1Q59etHAmcR3hhMPDVq7mWTeivxdgBcFIBjXz7t4m/2TkhsL3mVCMDGnhr0QzJNkl0q8i3BV7EuYSOvMoPBctrGF/i1kPtJPfk=
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    encrypted_text: ++b5iBjwXvTiZr7Ni+rPCjd19Jm4tR+lnahaEwUwgBHFqxFXxWFZlJxITbgg+5jB+QUpMmBq+2wMDOfa/SoOxVVHeSTh0h/xFAZU0XPMb71Z9Zu74KUUMURrXildpbYdin4mc0sTXz89Bf5WQrcPJtDejCXl3UiWxMH5qiXR8hXVAi5BqPPgE+VatMzpNG7Tpj5kL4vQZEnyuvHiC/bXxJZ82S0BwjKoFP3z/hYOVr4=
+    learner_created: false
+status: Unchecked
+record: -1

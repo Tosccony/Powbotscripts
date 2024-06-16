@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: ap+/baokrxAgS5AJvqY8lXs8g8vA9Z4XlGqOqbKJ+pES/taV55FrUTH//CUmU3oK7op7MG/yxxoZ1EYVo1BAynCdllTB3yZxJhHwG6XFO+ZBQ+5+e2vS2VfMHNChpG2vWbc9relU64i2u0qAm+dK8DmlCfZYLHRexgj3F0Q12Tk2qx/jDJ0lq6rQPXQk/zg1MNIvoqDGB+9EwnuUjT01Qw==
+    learner_created: false
+  - name: src/CafeReceipt.java
+    visible: true
+    placeholders:
+      - offset: 115
+        length: 54
+        placeholder_text: /* Declare and initialize the variables used below. */
+        initial_state:
+          length: 54
+          offset: 115
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: z6lqHDM5HG+/EpVjsGhKBd07o/YyI/dB775O7UaZO2fOiKpoe9bdmkmbr34bdZii4A4EQt5+wIMJtMXI3nQgJU6IvgRUsznFbKorvX9f3bWhBru/yErHzsUI6Q/pWST1L0SZCI6QlVx8LozVVeEM6eYKH/y09dMNoh0gCRghRAc=
+    encrypted_text: HqsctiXpAR56Om56BBdyp/JcfY7GbuPFrVYhPwWKp2s4ndE7tX7c0uO5Ky4IfygjeGdJW+k6eMQGXOZ6crG7xsamRjSPf0VJvy66L57+jvScxur8NI1xQXUxjw7qf702PYjyHrqGB+wgQkpLWw92g5GBPa7F8YrpFC7h1GF+HMFSEDp3PCswRnyYG/rFUR1aArFHkzcdgB92zZibxjJbU5JK6+ofGNarUadmC+FrLO8EYRUpfhdvmMFnD0A9jzAstGqRNmreuO2Gmnd3eaVvGsk3ldBhhgFNffZ+7LoggBOUxhDQaBze249Q16efqbGc9Mr4JNuSOLB/VCcMmh0t6qgpGZDaOdGq6NSdNVAvFY6/098vE82OfhQxN1JUNiqoTthpeDmqEvpghb3k+4IIMEZsNSYr0AvrGW9CkVxkPNLHkGUPuLV6SpMjRxoMj+js6UcjX3A6sIMf9TCZt5Am3BsI52CxzXUYBaXVWSQBXg54a6pSARi+KT/nx8abLMkenFcgV6W1f2xjWSSmTLhVgcsSdcrYS8a4NQUls2BPZhBWUdOPxJ/aXF/7XDFVAQjHSp159P9huqKzLCZ2SIHOCt67ardLqNt/Lq/DslP3v2zCiKUl9836qBZLe24sxpeeG16H4To/YDZRdqJf2QeeMXf1BK12fBAOI0G95arQZgRYYL53NrMOYWfNUIdGtXmGXnpvX2+1UWOctK3qlVp6W85uOaUh+nU9Os8ku0Qdn6RMloh2T9tfuNHF0XgrhzKSyrCovbDTcPDmZx73Z7vRgw==
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    encrypted_text: ap+/baokrxAgS5AJvqY8lXs8g8vA9Z4XlGqOqbKJ+pES/taV55FrUTH//CUmU3oK7op7MG/yxxoZ1EYVo1BAynCdllTB3yZxJhHwG6XFO+ZBQ+5+e2vS2VfMHNChpG2vWbc9relU64i2u0qAm+dK8DmlCfZYLHRexgj3F0Q12Tk2qx/jDJ0lq6rQPXQk/zg1MNIvoqDGB+9EwnuUjT01Qw==
+    learner_created: false
+status: Unchecked
+record: -1

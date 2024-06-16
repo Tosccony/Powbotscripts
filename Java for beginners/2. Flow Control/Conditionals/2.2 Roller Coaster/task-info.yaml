@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: IWhD4jSRY/z1CAB/mw2LHBsZ0ZWib6MOUOZDaif2ETa0eCkqya3t+66FfRNMyUcoiyYeXCdXGTVvfs7Ixc3wOAqHf0EEg6PRR369vcqmxYPm7dffR3fYC5OmmXrBPYcZ
+    learner_created: false
+  - name: src/RollerCoaster.java
+    visible: true
+    placeholders:
+      - offset: 221
+        length: 44
+        placeholder_text: /* Replace with the appropriate condition */
+        initial_state:
+          length: 44
+          offset: 221
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 63JAXSgFbz1N8uA4Qqbugg==
+    encrypted_text: UNorKx8UzsfuOSUysYR1FSIRnlqd7ccbTa5j0E9u68Vsk7dRuTCmbHC3eHaKT8EOrilTb2B2NFj2t5KDM4rXMk+mm06Tq8YVINn0stVybLmHolDYc1tpBUJR5sqM8lQTzT+3MxgBg9AVLp09CYa3+GXvw8Au7gBjYjCccMNDU6MT4xU2GqLFdrT5mID5to1UMzLPl89ll/w5Vr7pLt+7j+TBTnon31lhBJUe80TBD+K7jGNzlhVZqR9q7WstwnN8qp8Pdh7oMhxFSFZmlE/INFPei5F0hsZyxao7sP6lNH+kguFuNYSWiwgiINFS709eKZK5S0tsxDizeVwyzcCC2S5xHCUJHDQ+fwWSF2TX5NPOe7s9wCPMjQud7W09vFLxR/0186+4FNsXZcf+MyGOzJHqqdSRNMntohW1fFVCvFhvXiBeczEKWz10FJ+0VHsuB/gsK009HGwBCdP+jOhcIVqUXYTKCSzkannNMIyeVATJMRu0VZrVJjJuyuQrs9yNzxZBV/09mTDex3HmhAzGlQ==
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    encrypted_text: IWhD4jSRY/z1CAB/mw2LHBsZ0ZWib6MOUOZDaif2ETa0eCkqya3t+66FfRNMyUcoiyYeXCdXGTVvfs7Ixc3wOAqHf0EEg6PRR369vcqmxYPm7dffR3fYC5OmmXrBPYcZ
+    learner_created: false
+status: Unchecked
+record: -1

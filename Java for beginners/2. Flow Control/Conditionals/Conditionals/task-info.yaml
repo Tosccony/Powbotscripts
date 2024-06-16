@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/Conditionals.java
+    visible: true
+    encrypted_text: Vf450tskauyMJxuX3FuSg/tRuWRP9g/uY/ECDhZA5XTPp2oz/tkRI//Ybv0w/fdNJtx98qJHMBDUe4SS3Vc3oh0wLfFItVL6FREZlUKXN7KyD3toJjx0OOylXB63AtH9morg+Sw5DYJsQJNMafokmp+CjcwIQklOSemCC4mouvlozBMB3bF4jwUQ5nGFgt+WMCzwkIoXWuSgpVUj2GWBRJS+y5nxgoF/+Dh8VL2HfK/cHmsHSRenAKDe+QaOxwqW7uvJ9GaCDxHuBVkRhIplIR4XVbc56JmcxlrW55fa3qphwqtTgPE/+x5SZBuv2uRXqjmNvYTeBTect+7XsHGVv/zG9UlLEAdHC6C+LxKBodpCCjnyzCbzslROBBfUXgjFPKNEgcMBCz/aMQc7IET1M5BSU3YYOFuhCocBtqYn+rnqA0cAVq44Mn23+cnBNqrpYTxUgFwqVUb42nl2LMvM2PKDqfNVYxPlEiwWFVHa5GacX9wu23vANhcdrh+FPa+JRJ2sw2Wx2ok4kXRIB3enC5Uvv7StNBoa2Na3sPip/WWlvonbLWXEbc/BFFhylCG0lBDS+PicNipdH4RypfQbXy0M/8z7nIU4WwI8k5jV8NE=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

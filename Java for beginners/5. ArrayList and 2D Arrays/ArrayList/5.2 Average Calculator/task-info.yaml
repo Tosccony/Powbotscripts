@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: src/AverageCalculator.java
+    visible: true
+    placeholders:
+      - offset: 143
+        length: 10
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 143
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: xe4F70RIBZpibNTpdPW//X1vvojSlTZEcoL09nLAqdf7ReZ563UqQVi43K8IMPWy/G5J5IcfavHQSnEr/vSCy/r/dLy/viVjbr5i0N5sPQ2Ud5FsJnyBFDCS5JFQYtGvvpUCW/BoHgXGydPtYDeeBL4w7tmucQmXZZxxaUtStTq0EVqUJwcZG5h6hcATGoCc
+    encrypted_text: NYgHoNruO3t7vIi6YFhoH8OQg22cUzmYUe9oJbRusBeKVktlx8IUt4xub+3QSIlpdvxcpHcpSyL2rNrivNEPpTPPPPRbJVov1NZ9o5usfFP1LvbUXlfxsdd7BitqdKpN0hLH2BuzzklaWXcoZnemdRZB4ltAVfG1Ne6COEdIt0TF9F4IVWIFbf62Q7BRI10la4XOT/bi7G1LrS4s80tbGGyvbNEAZM7ecLJQe6G6zms=
+    learner_created: false
+  - name: test/AverageTests.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nOBt0HQ2hiNswBpijQvPqJtQFgYFr8ava9aEb3Vs0ZB9Ow9jDsJR09g2RMphSZy6G61WhPWuhKGKRyGMKDPTDEdv9G3W5SFmklTT0tRNeApe1FswY+y8F1SKoktnVTB3X4NwmaUvCsAEkaAHw0UQByxCkCqrudzbIj1TNdJjU8f2YZBXjvROB15HMkwuEuqHx2jT/zpBUuQvD4oXRp0SSd5mcGX6MkWx+OJzV5F7qGXhNbeHW6t7zGLdrUk7V/5YXDFibtkV4q9tjfPf5CwaZHAQT2jU5VRGR7WN9590Vg8eAcwERMWDYDJtvg1SFCphjl459ISrbgLSLR1d1uVutN6UaXJqxh0lpnLaZS32Xh3UG/WMeZb8J//lItMq5IWbEmO1Tl1ga+uVc0+hTvHbk2KK9PIuxBRsLjRC4fubPDyOAghoqqJzzywyj9nRoDlWx01Dc8oU6LqhOsdGzPYzQvQwP3jYQaYWwn3EG1WhAu/kTa9cvXlXINkbgpKuAU0EU3ioX+3yDIAIUItcRb2MaVyZVJA6mejR4E+6SgXweLioS4zxJTIY+VyoafFP76xEB58cUgbZ97HBHfipxPxpzTB1qV2isR0XSGwgg6eSXmAUqinkye8+L45kYKm+VevNJJ7l0ByWUtvAkkULGiv1PvPE57emez2LS30hbXu2lD4B
+    learner_created: false
+status: Unchecked
+record: -1

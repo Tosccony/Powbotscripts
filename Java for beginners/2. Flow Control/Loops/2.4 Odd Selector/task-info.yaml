@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Put a conditional inside the loop.
+    is_correct: true
+  - text: Modify the condition of the loop itself.
+    is_correct: false
+  - text: Modify the variable updater statement of the loop.
+    is_correct: true
+files:
+  - name: src/OddSelector.java
+    visible: true
+    encrypted_text: ct92wBpvPbEEiTd1P9Okf0wMQk5+farRsmtYrtirie97YT5PbA0p/oH6Yr4PP8VfflXlHN4AYrs6rLsQ2ktgOT18t89hRUIVEmgGGxhrJsRjKjAZg99J0r+rya482rMwYfItwyazfEQ7iFN9l1dHZge14yStHbiR6WwfPQaUDkmFCweA6q3tr2Vx2zdhK/h85STEGWvWHDIqgrHPw76p2qvtq9W8fhrhLd/S5Qzb9RcAtWuH3LHp9ZvMfqoYZT3gdD91DJNupmWEnA0BUbdYHDbFUaqyRW2WqU+UmgIgtIq0G43RwpqnFTMCCSgnBs9+P0fEL5m9Jimzo9VW4NLHQ4aO9Giljq9R/6RY9pqEX34RGbyZ3fvZO2Y1ba2EE8o62yFK8gSgnSEIY2LjB9oPHZbvPccfpt1o9J7NhWCJnmyphufqB20PPq8aTEIUJWfaPpTcw5Re7bnW5V9BwOrIqkWXL+AZZzAUwXDFQ3fcyRr6TL9tGRoFz9G0jX/uDxeU
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

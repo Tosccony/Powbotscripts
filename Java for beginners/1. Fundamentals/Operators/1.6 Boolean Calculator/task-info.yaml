@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: (a >= b)
+    is_correct: true
+  - text: -b/a == c
+    is_correct: true
+  - text: (t || !f) == (2*c <= c)
+    is_correct: false
+  - text: (!t == f) != (b+c/a > a-b*c)
+    is_correct: true
+files:
+  - name: src/BooleanCalculator.java
+    visible: true
+    encrypted_text: Haf8WdUKtwyHdsty4eMqLBR9NQ+6ttdfSZrTCIlnDnu+GzLzCbLMZAU2Rn3nEir5w0HPH/Vke51NJWIj5EszUisnsA5nU2WoIW5TgZ9J5KBAyx/dr1FyCKbuJ0/J8b2ohS1EnO3E7E6MzFINiCNfSocHjxR7IdpLuaK2xJiNxxdJD3wzsipxpRjQ1fe2XNfphuH+yR0PcFIFUdm36MZGBw==
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 1
+    is_correct: true
+  - text: 3
+    is_correct: false
+  - text: 5
+    is_correct: false
+  - text: 6
+    is_correct: false
+  - text: 7
+    is_correct: false
+files:
+  - name: src/WhileUsingModulus.java
+    visible: true
+    encrypted_text: JVxamlnagtycSRTjyzMJNnrSg/VdKFE56aytxg3/sEeT2A0KtdiF1HXdcu7LRDybldlrrZPgPTubKSwgMR7OxbWOTDQ3hJLcioOiK/ImoCX0UVwc0g3batWRcZSDXkrlxO6mKQn+y5QbjCMYtFzy+sUY2WUfo2TLsM2jnI/hmv+4rVtsBK8vqxGa62h+ZCIU+45ilKhhOyzTLV2BPRoX+C9dwo9fV+up0YvyFF4QZACxJdtavLCiecGxuheh/QnDRDd/AHy6VKqWzNXgevC2RQI+STcL7GdCZZw8NMeluxfMI5C+Ja2Yl6O6OCkDLKR/rH490w+9N30DJzmpEtVShuXzbpw310Okt+4jvku48guKU9pDDBxDLFUBh1cMB+1pRIiPMw02jtHMI1OBLKZbYJW3+Eotki88MxllLimfcTvipBlBILB10o3piaUbJQ+sw4LQHYbX1QePRGrWTK28y3nZCYMre3urczuO62NTmb6i2qoPaS8Wr8UbAxDWTk1wUVSpyW0Ceng2l4okITH3rpmkOmudNfJ4yGqvkAbz9EQ=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

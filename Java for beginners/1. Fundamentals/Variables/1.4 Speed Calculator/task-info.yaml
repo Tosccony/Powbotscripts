@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: kilometers / hours
+    is_correct: false
+  - text: (double) kilometers / hours
+    is_correct: true
+  - text: kilometers / (double) hours
+    is_correct: true
+  - text: (double) (kilometers / hours)
+    is_correct: false
+files:
+  - name: src/SpeedCalculator.java
+    visible: true
+    placeholders:
+      - offset: 263
+        length: 19
+        placeholder_text: (speed calculation)
+        initial_state:
+          length: 19
+          offset: 263
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: nu62WIvFaNlkWvKA7UgpUk9VGHLLjQTfRw8ePsas3zE=
+    encrypted_text: uvoyEoNu1GMjMY3YxboluR2fRxTVsolvT3YK0LrUTmdxnnyEd093vwRgTxphWFcpEGBn9i8Wla0y3OwftE6xTikdnLF3DNE0hUFEXoPtuiVz5/K+2h9wO274DZTaiQYN+6L6768NWM/kpD4/9udEBiyddNoKtCv3SOFa9bWqvLEvbrXMUehDbmEf9l4QeRaU8L04T/UDqhLCMzW3IUWzhLSxsb5jGbiieRoGTfcm/C2lVGubs5DzP0IrCeV8L1My+hnAL4Ei6db0v0nG2f9yDV8xv0VyaEOKMhvBnKBGg1C/rSCzMNzLX35XybM7lhRDVkm/daq6RaWikU6lkxTNFq0Yy/egigoyX0llWrrzu4DcHiqPSaKg6I30OWbh20BQCKn+xUiRmg+vgM1pdi95ng==
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

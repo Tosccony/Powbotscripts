@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "((\"lemon\"), (\"lime\"))"
+    is_correct: false
+  - text: "((\"tall\", \"short\"), (\"up\", \"down\"))"
+    is_correct: false
+  - text: "((\"rabbit\", \"bird\"), (\"cat\", \"dog\"), (\"gecko\", \"turtle\"))"
+    is_correct: false
+  - text: "((\"scarf\", \"gloves\", \"hat\"), (\"shoes\", \"shirt\", \"pants\"))"
+    is_correct: true
+  - text: "((\"math\", \"english\", \"physics\"), (\"golf\", \"baseball\", \"soccer\"\
+    ))"
+    is_correct: false
+files:
+  - name: src/CountingError.java
+    visible: true
+    encrypted_text: ykxy4Zjin5IixWFTcFbpjNCo0kqNnCtlu8fSoNG9CZFEpizvfA4vydD4al17TBhxdfuRHegnKlBV1QQViDTvgUnXb7nNdK1dyYdnhQIJzia2hCW3SclGvSladXhQgRi/ZyFSpEklygNhWPrPHHdmeemucrmgsd3hnKnuHTJLEgJH2IVs+j1kNZ8lYN8oIys7H9nNRfxnlXywGjnUI0iSeSLKL97HjbXWvEzGiIC9ydRR6NSL2MCH/utrgO0sx53MiJDbXf/h0j0WjDeKgCe1wHxGOYavpxXIoY2nZnIJjZ0ueSnOh/BQegwJvl5o0G9XXuNsqrJaxFTRgNldPKZZa6r4ONHgr2D9gl2CdI3J6l+faVlQ8j5Vi0B3ezrWBJ8gp6gUu8Jma3mePT0edefOA08VaZ2VrCQVttMbQhcYiMPWwK9L2tTxr5mIQSX0LDgI0y1Kf0XTg6CToZB1HGH9axwkXyMhLSTpmOGN+nCpjmU=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

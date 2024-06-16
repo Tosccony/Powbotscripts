@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: 5Rj5LEFHqbFY7lGXrccG6v0hdlQGEw+5jxYivP8D8XH5tYQNK76UcbTvmoX7Mqb1aVUuQRxNIBhCvHDWVOtv3w==
+    learner_created: false
+  - name: src/SayHello.java
+    visible: true
+    placeholders:
+      - offset: 77
+        length: 41
+        placeholder_text: /* Replace this line with your answer. */
+        initial_state:
+          length: 41
+          offset: 77
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hPCGMtq5LjZmA9ye76lrFLyzKDg1vs3yNqceyid0jTsgqoa3mWxqZS5Wwb/EKFQbDy9XTygPlO3+a5tDAtGbCW0aVOvgi6kAy7+WVYuoc84YuPHkiciw3aiHNumoGCAOCBmrMLfaNcumOQ59/x4DVg==
+    encrypted_text: 635+sQS//Vfa5jJBlFiV+vgsT0SxluIG5+c9zCwP0z5He9vD7NRflL7yGC82RF06OhCiU+jMji6GoJ3mLzlPjTMqvxIAEE+qzcu1ORjQFITyknuxK7Zww5q1V+SrLRdC4CiQ7GjHBK0w19icK1mCRnmQS4ty/NWj588bZgFeg78=
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    encrypted_text: 5Rj5LEFHqbFY7lGXrccG6v0hdlQGEw+5jxYivP8D8XH5tYQNK76UcbTvmoX7Mqb1aVUuQRxNIBhCvHDWVOtv3w==
+    learner_created: false
+status: Unchecked
+record: -1

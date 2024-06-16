@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/ShortcutOperators.java
+    visible: true
+    encrypted_text: lQCTpHbtFClDk7KMPEfe2HnX1Kd0GvI2wmlhQrA1Nl+gk3ytJADGRAhRrYpfL2Iu5e23jn7nxFmzjfGBldJuGXOdd18h9t3GAsqMyJzBAh1WDJzJvF2NsgKufavfP4uaGE31m0uQUGWZeGKd+TV693A9h7QTC1emCTWfty2hgFfNJ+UGrP/X+gbfNSfDgEsHDqwPf6J2+h6/PHd3meWWOTfPR2vAW1awu3RPSkGndqklqvDA/nNBAvtiVnt7i3Is/p1jF66KjITF/o+iTtU/ePaIQsSdWBUyfDcEx195C3oA2yeh7ROZW4Zp5vgFLomPhH8TKXudNA3hC1qU1GYiBr6fd1jJjDNHSaLNYzvmk95hyP321sTVVAUlaHJpp1VPpk+dTThodU4ng6VoorxhmudmruI2U1ATSJZ67MDP5wMFM3UqYShIVWGA2bkl4M76hwdFmjkTEFjD6uAW/KEVgUsxgajxtvdXB5hZQit1cQ9mJpui+WV+SNrhMuS04jOC+quyNfqXcdgYEH0rPuRGKX/uJZWhw8g4qPnJPmcq5+J65s+DXooK5TidcoMyiVXVvxEOEP5zJDmVqRW1ZhZk4277/6aGsNft8F4whmgnapniUtas3VPuHNhoqMFGLZ0W4VWZSp+0NdRJ23yNSdO0nQ==
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

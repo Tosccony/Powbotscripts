@@ -1,0 +1,33 @@
+type: edu
+files:
+  - name: src/Meal.java
+    visible: true
+    placeholders:
+      - offset: 252
+        length: 38
+        placeholder_text: /* Complete the method makeItACombo */
+        initial_state:
+          length: 38
+          offset: 252
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: lAnkNnZU0s+ivE+t/fi85L5AmL5IOg5ZRdc9lP+W+aOVWsvxw03SnGGU6037BkFSQ/lBKcDYyFJcoo+HnQwlyZckGeurGt8Bgy2b7d5o23LHwimEvwzSB5vuUsB3oZPO5MzmnXIGyMZ1aktGSVnhtg==
+      - offset: 296
+        length: 33
+        placeholder_text: /* Complete the method getBill */
+        initial_state:
+          length: 33
+          offset: 296
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Y/7guHWbjcHL0k8Iw02e1VB7XYhp5c4x4gtJPMENNLSvTWKSPydXJQth72GSs7NiGeeM1pYCUS2k+KEaCG/FytYNqNkk7yjscu7uZLO/VNg=
+    encrypted_text: eWgmZhQ2c/8AsN1vp/UIFIFDqrHqAHZws3ooTzL60nITpg/WA7Ly9Jj4yJRdMBTwuOHOThQTceTKn+5nqX0ANHE1Pn/cQx2Gqr97ce2nsNo7r3kdZ5Jn/RCBxw6reAMZ+YN5g7urFgVpJleAvunPNmn8KFbgM3LsIzLjH7wJBBrcuzOnFbk6uvKx3wj4aP2ebWFzgQsKIofON5vjTnyZCnkK9d/c65up5wEA50JkhpeNsrYGH7trNQYr7IGav8X9ta3wXjOGKDzJ40fl317wrF2XPEkDX/tZxx9NpmMowBUrhJvcrYwnuTw/5MDK/IeH7DTGXKMoGVc5gRSZRhBCtxHgvGSF6fuG7Qol/0TI6ZkY2Avj/4N3mMpp50nPEm/vm/7NGzdE51OzyR0v7J+zZpuIXsnjxU920+iFbaCzv1kcDUbZWcjcteoTQUGEUCO8
+    learner_created: false
+  - name: test/MealTests.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nLOMtF4WlUsihBh5jN3l13uyooai5P8u0LMlLQ4i5q+268mANlauP0XXKhKVAzI//poqL4p4syDTZNFU1mxThxxBQ1Z7P44hQLNrUwNvY3BW+I2YNSAhmNMXmaIrvl8oM8I50iC7PRK+tsBtVK/c93+WLf6zRFJ2Rb0fK0LpIwagEJaKjF1z/lgixITVZJw/ccKxFyOAWW4hMwzJRWq9c9kPkVWjGyDMGbmjLP0G3kbGGqaHvDSgHuNo79wO22wPdC2NMlLKd714FS8yS5/+tp3FR9Jo4FnowFT6Q26Xsd3Mep6aBCyNUf4+2zFjkQFngZSC409MFz4FdnP/eDIENuwt1iUvwRyjpXNS3YWebum9mGB0ZugeyPxMfblnUBTbll8/s/kjHZVkQis6VffBQWl4Os/YepVg8KiBv8XShMIqdM65hBJHbdT/UrPm0HcoaSPub8hiHMLh4nt8L7eCuwptcxq/J1zDMhAISUY4/5UE
+    learner_created: false
+status: Unchecked
+record: -1

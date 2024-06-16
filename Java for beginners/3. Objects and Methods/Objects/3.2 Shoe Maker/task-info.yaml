@@ -1,0 +1,47 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: msTeiLbh6qaDAcQZIC/GzGReh4GLIEngHRKG9oK55kUNOgejplqxC4dNl1SWNayGyW96grc7ovA2c+w76vwm3A==
+    learner_created: false
+  - name: src/Shoes.java
+    visible: true
+    placeholders:
+      - offset: 335
+        length: 40
+        placeholder_text: /* Create the boots as a Shoes object */
+        initial_state:
+          length: 40
+          offset: 335
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 0obB6IgeEn5racsRgxNVpNphl+x8j+KYoe+9FdPuPhc=
+      - offset: 382
+        length: 37
+        placeholder_text: /* Set the boots color to "black". */
+        initial_state:
+          length: 37
+          offset: 382
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: V6lsmAqqi7588fD3lXSuxhgxInSKLvliUCWyQPaGPqc=
+      - offset: 426
+        length: 31
+        placeholder_text: /* Set the boots size to 32. */
+        initial_state:
+          length: 31
+          offset: 426
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 2COBd166SVHY2t1gylAwD+YdDZfLevKrLyYKoS2yEqA=
+    encrypted_text: lQCTpHbtFClDk7KMPEfe2Lkxr30lMhhWT+Ro/UqHq7v2USoLXXBuSDLBtMteGs4ugAl0LVSPxcJ/YihbxgnyPYXfSE/kBQ9K4H+8KeDADTPfuZLvGStCkKVjCmSFyNGFxFJyr1C4ecpysbNi8ye/fSv2TYoJcJYGQjaeJPeJidUxDZZHYoTx+QVEf98svaIsOdv8VVM/vTZE2MyfTDsGi1+npKpeVF4+fE0YOQ0eLaaikBHkB+OhyvPLHS0tD6+isit0LSqvkvqnv279GQ4LFUAd0A2deM0cv2ENOgl7vrQZ8fZo6HSF0kF0Z55ZawTr9Ao2n45NomRdXX/12IzDs+OYDO4bm8D6q/+awwf6sjnY6w4TZ7LRvAcIIT6bmolgMhUsG6/nNbO4EsWBOD470iBryAxW06k1TbvLXGcOrB8L7eY2dvtPc5E9tYn3hi9jKSG0Xyj/Y0loOGKh8LzgwJ0WHWou/HyVrhasDtM2O0Lh5KU77K/isEN30deZUHXC8BGV42UNdCf8fEKOXCTR3AVJBQEMIJRnVoH/kh8r0ZlyZYx5buKWMknYr9B95if1G5sBZakJW+xweqVAT9GNspvtg2XOfFD4D/7nscUrNaOGGmDwO65LonRKMQZJleUXy4AWeYO9o1ZsXVp2sWBUvPRh7Om/SpITGkcNQswA6VlsvZNJvLwj54Y6ovfRdxZOiB2HpmUWWGs+bOxUwJPiYca4iRI9oJtDMFgsD8u5f/ymOSC2iZ0n8/XrYMOnR7jbcps6Ap1GxhOaqzaSrxI3ha39xrGaxzd3siFLHgw1Sq8=
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    encrypted_text: msTeiLbh6qaDAcQZIC/GzGReh4GLIEngHRKG9oK55kUNOgejplqxC4dNl1SWNayGyW96grc7ovA2c+w76vwm3A==
+    learner_created: false
+status: Unchecked
+record: -1

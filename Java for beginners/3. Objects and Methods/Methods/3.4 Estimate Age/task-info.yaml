@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: FQZUGACNYCz+c5xKORSZ0n7KBivm/Qr+bBfKq7CRMq0=
+    learner_created: false
+  - name: src/Person.java
+    visible: true
+    placeholders:
+      - offset: 359
+        length: 43
+        placeholder_text: /* Print <name> lived to an age of <age> */
+        initial_state:
+          length: 43
+          offset: 359
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hPCGMtq5LjZmA9ye76lrFPQCXptgL7qAdd7gsiNtw2t0TmfEFJVsbmxtGW0kaKZ0TOaawaCWjR5C313GAwoJzoSr1wr9Vj99m8yQUEBp71A=
+    encrypted_text: 2xdc+E3RLiXWutEek/OcsSS91IlhShehPowH5Ua/gmCBS3XLJY9xs+h5J89GYzUulDerQviC2BCImg8Tn3zM5R0GCYEZXUumYFWMYi+uyLGgvBc52InpbnpQKOtl/IVEsudI1TitFFZJrqhZqpjfQLwF08GH+RG9f06WiSwvPbtguVKKPQJ8LZ29v82Ikg00c8IfoAhYfwWOdWA6GRul4gguCOTMm6bKBpOmxQ2bID5OEeOpTFPIqj7fWzccH/ut/izHlmFRerrnkrzt5mrik8ERKlibbRq0m5RQEa/kJyC7ZNO7tYCvB1775tWSUJeX48Vd4mhQHI2xrOdqwLj8qLTNELcwIWkEUvwDx/nUipe0vCuzRc+2Mf3yCCr2ilNXCs7MsiUySW3jdW7OA/fhrWbs65b0ZlgMjYzZ2WltfQ7ewrUKddp/FyFw5mfZ7w050b9HzfcOKjwQRfvRYoJeOaXNIoanjX9dAhYk4MQuh8G9maFn/nBXy2LNG+jJDFtAgl/515N0iYPFv8HSs5pjIs5H88RU8UJyZhfp2VsJs3ixIiIIpZz/vX81Goog/w2e/wzBCZfWwFk16RDg4EkWqgjAfuznAkXj3PEDFDksOuomGRUZ2BSn0+bq/Mz+O5wB6+QAp4x+wgqA4WWJeUYx7iVmW8vLunUJOgpKHZqqFFw9FwPSnMCBaSXWTDpZ8QUughDk6MTIOlsbwXgP4ylLMd806C1+bMIXxhqaBW59owjVl3K8AULeX5FSmtOnZN55a+XJkPNOTdTY+Z/4My2KCN2Sao0l/KJ8KjB8LXfOg+KOsR4Imn0r+BgO6emGy9zq
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    encrypted_text: FQZUGACNYCz+c5xKORSZ0n7KBivm/Qr+bBfKq7CRMq0=
+    learner_created: false
+status: Unchecked
+record: -1

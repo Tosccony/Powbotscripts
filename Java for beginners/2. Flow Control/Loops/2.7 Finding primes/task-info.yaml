@@ -1,0 +1,40 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "continue, continue"
+    is_correct: false
+  - text: "continue, break"
+    is_correct: true
+  - text: "break, break"
+    is_correct: true
+  - text: "break, continue"
+    is_correct: false
+files:
+  - name: src/FindingPrimes.java
+    visible: true
+    placeholders:
+      - offset: 663
+        length: 23
+        placeholder_text: /* break or continue */
+        initial_state:
+          length: 23
+          offset: 663
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: +rreWeLZ2/PtWdFPxkaAAA==
+      - offset: 934
+        length: 23
+        placeholder_text: /* break or continue */
+        initial_state:
+          length: 23
+          offset: 934
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: +rreWeLZ2/PtWdFPxkaAAA==
+    encrypted_text: 3q9vucRyAOtFuq60O5px6tgDaq7m8fW0PUUURk5W3gocF34XMZMNPAEEiLuNPYUk8clyR7UQ4notkWY35Ykd+5jS/SxiWwZlJ7pqxFO7kdKueupwhT0JwqKsOlCpZqx96sckTBILGYeqvdxrBq1ZTG+jg+5D4VrVjFT1uqpsDbOSw4oJK6pnP0E/ZUZlFiNdn+nySjZmSHOQNq12oI6vfJC2r0VYiKjjihlZRL8bMRkPIoQeBzUBNCtHVM+Zh7DCEuVtQPAjUK9ASvT3mI2NvdJ98sEiIcr4OVOg1lNeJ77vxbataCiYgR5p/9pWX6N0/GxbYMAitHANUdSXOmCGwYgRPU79VP1bvrsRzXptJ8bQz9IxtBwTIfVQogboQnh/A/2JheIjASTdbTeN1Y1+qIa3ebDRKA+f+LCVxDi5K2pqE8zApyceF6VnS50PnqU7yE6ISK/rPa19L6q/8CjBZ508aE9hUvG1UtjQWb6HZMT2sHjf+dJkw4E5ccQ1MlUD/p1B50WJzkAIBPKqT0ps7Wa34Mm7u2k0C4hI2ofiV5ZqUOECh8NbAmXPv9NpSc0nFfKpYIvjuNKaM+XIpRIbCqwhDwH8o4Cuvvk3kzWhA7E4bG5THopoO3dh/9Tynhnccg99VruGYG5sjhf3N44FgOTP6QG0Gtqbd4/Iwo5kvLFSN1UlykkLlA3dIJ4SGBTWI/nERT5sGVCG90eN/SqKL5tuQi0/7OMdPHkMVGIRAIduQWngKHXbv4SPhW1kZjUaoGitTcgNS95Nf/hacapgK5SuWz/QpVc+uvoBR3/VTYiAHQsfhqdc+LwEmpKKig59h8iKq+7Jogfh/GgT+OYsveIE+IOFiW3SmC8W2ydKw55xn9spFJy4kXWuMQBf/Nh1rIFQMN97g6BL4xt0vkVHzs9HxG/ygrkLXtZg+xKoCGnuSGCCAENjoq4ON0TmD4GRx7bcdGoy2OQiEoK1wAOCrQB4E30wRXvDkbS5jOpwpLBAAaNYyqQy9KDEkGlRVMFpl70t4EI6snPOHIXmWn6KP6ETuyBkxK4kE01NdD9MdJKM7FVHUZDDcBGIno5EtTXVnY0MzFGf2HGXHlwsnB9Ua/W7gqH0YdDMCDXI+HJIc8mojVaDsoFy9+iisxei+dmAVO+ypOQ9A5J0gKy0X/0KQI34ykg9Cpnyj6m1QLl/k02NFBRpYFj4zG+EGh+Nx/85M6mraW43ZQXIlJ0fzI4dQjVYVcQpTg0KW7FqQ2mUvu3qiUgpB7/Ou+ZL32x+rKDwdOKmtFWHlmmewE3y6UoW0F0Cp5Yjan7lGlljwx7Wt4G0qYq29ESptL4uwSWWq/P2QGHA3ljqnd2II6kmZxRO2oSQLWZMwsnJrkPaX6pXLSBlTw+fXPxVaH2YNWuBohrEB7PS0452dKfbwh2Vv/ljWg5pLjRZUgumBVp9pQVridcnunjeLch++RnUu21Yp/maElXqYqIek8ZsPHd5MHFdLT5erJXK8A+Vmrfn2iT8V/w=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

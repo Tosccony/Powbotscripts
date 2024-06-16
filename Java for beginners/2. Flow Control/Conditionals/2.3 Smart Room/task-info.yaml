@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "When smart mode is on, humidity is 40% and temperature is 20."
+    is_correct: true
+  - text: "When smart mode is off, humidity is 80% and temperature is 24."
+    is_correct: false
+  - text: "When smart mode is off, humidity is 70% and temperature is 30."
+    is_correct: true
+  - text: "When smart mode is on, humidity is 90% and temperature is 27."
+    is_correct: true
+files:
+  - name: src/SmartRoom.java
+    visible: true
+    encrypted_text: GcwhvxOObdBkrLNqkgGIriCQ36bV/cDzt+FMCgN+jbiEm6tAg51fG5f8W2eh3/Px8DEU783WOLgfx3UoFAiXelV4b5mQC7pNDkeMdH5JeChdXhlNN1Rzcts+N4wBdD7QOXSQSd6QuYROk80Yua2prNSV4NxS6lbJsW5UjhGU34TScR65M0dKatXyExh0mKLvkxBbik1piAiNvGSN9eGt3IxqoG2ueX9PrAjCEb6rRi4MIkR5LQKFuTrvjK+ZjIMTze4llB18EwNZGRdNGdmOEvaAVhJHrO0C6u26rtmGGktc8GQmmZ9/o6IN/n3+M7EMiw7CnOOwxbCTCUG7PnJZl0qOzfOyWDvXkMShuH7Qpa8/CaErOySQCAR6NQ7O9da6Npja8M0Kamb8fc2W90ssiDgpbdbK/FENoneS0r6WH2UHREkeCyv9I0LcgjA58x2hmqM1TWs1OBcoHyjbadp6vaiI0VVd9+sUR01e7Df30rYZu0FVJ5GQspen4dkbU3Z8G3gSer/WSnhFDZzZsd+X18sYGV+KjY6jIA7EXe58ywh/DvfEwGCSBVrfRkWDKI5EOmvYrhcR4w0NfPAaAagyRM+JAsz0Ot5ZkgdnjHAofEcANx/1NGGkWIDWMT6J09X1RpVw2eShAGU0rX9CU0+TFnDNeuXcn+AaMYssl9wZE0Vwab5y3/n+7sdVHoBTDAUzKiPT/VHnngeh/yGRqIs+OOz78YZsGRhT0F8MP6pWHKoEtjhf/L9/tc620BLzCIIN9ts0Dsp0tKOdMPdBsszO3XGIAMTyldaELEcFtNAfdvwblveCIxN0VfDn5icnyDt3upozp5c/BtOo5GzHeRVuyLOajHC4bgkBUHaEbF+J5TXABkevmC0JcM4D/lqTcEYiWLvQHLBeSpxTJ8Vo783W0DkQPdk02xpA//rwQlLB25xi5ZdmLI8jgElNokrmgnK86Wh0frBWknJDhuyeTqfcWtQRv3uydB0yySiQLF0CEiHJX7a9K0tRGaiMYXhQyy/VGnRNPaCClhRmCRVpNwDoXufWh52p586RNPtu69HEcPUJ9qzon7mEYJtrM1ORlpuUorjb1d0zC9pyXcnMIp3Tr9XTQp9uQZJnJprUEb6DNqgPjL9I0LYWMfwW8jdgyeWVA1ks9tqZDkSd9cifKeC2H6AK4rvtq0nF52cQogWZq3yWzNPlBE8BIpHOFsl0EZw1CNpOXxgYV+jWFcdj53S7BCSrjCt2FoU+9OAEMorEzR0=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

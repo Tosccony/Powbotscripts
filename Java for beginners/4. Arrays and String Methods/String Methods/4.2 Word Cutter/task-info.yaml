@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: src/WordCutter.java
+    visible: true
+    placeholders:
+      - offset: 123
+        length: 78
+        placeholder_text: /* Code the cutInHalf method that returns the first half of
+          the word input. */
+        initial_state:
+          length: 78
+          offset: 123
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: bHFGXImwHJv+cRk9TWcTxIBISiCSzk4T3FGgty3hHH4kh4h+OmntTcNUZcxJkeQp6tWTrZ0jrifloNj8hWx+RJ0a0jM6t5LsBniRJpzmzga7b2IS1xDqgQN+2d8Jj7dihE/YPKJnoq6i9Ztay4LY1A==
+    encrypted_text: t8Moc7yHljEDyiwVJQwBi/BQF8hPWnC86ELiN3U2vfwmxanYZQ2r4UgVCIP8PqfNMUmewVUXSsQBNaGQMey/jXmhWcyyXF0oJQs1GbN+qkBdVBCntYznXyZYw8CjgVby4xSrdJhH17uBjtGyAScOgWj4hng+STdl/26AWumV39+wWuU9YSEIQjdXNAdr2n9gUOfZm2hPqS7mOX2bKgCoqmkv6jR83K5mUXUlny25l8a9QpqeAcDHSqXM+ym02mt/94//lsexCko/8lYd1gV2eQ==
+    learner_created: false
+  - name: test/WordCutterTests.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nLOMtF4WlUsihBh5jN3l13uyooai5P8u0LMlLQ4i5q+268mANlauP0XXKhKVAzI//gfCaXdDkNhw23fjFiOWO/HHhF11kqEYSYjadQ/KNBlJm+JFu/6mHBOF5NFqbxuNUA2/anf+kftp+/VQ4P12Jgw0lgk+W3mhig2CCGjNVeHCayx4Pnhec0xtFx9gX5+RbffqSAY7TBGTdLqmegQzjIt5YrlDwL2Sayfu3/NwU5K0Bl8CSwxRi26hb9RpuTZQqQOO8w0RrhaTATPf50j1ZcG3K+6lM+Z1xmpUd3Yu/auQN8QMTzQnJVBynN0FlzGlUsjHxIaWesm5i2hxffOEv1aMNn6npcn1nlr1co8Rbw7HpNG46qRSEGYkn+YDUzvYvbPkrgC8MzxNjfKY089WWC6vw0nweOob0Jrc0S8RtsFG
+    learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/Length.java
+    visible: true
+    encrypted_text: mfqLQHuJA5PNIDJieZ5ChRu9GPnbgjTQ4gsiw5oU/ZTv2qQnD28JmHNtgPZ9yp0q7RKEzePO9AhTiWpuLjg1/yzTnxdhVb2Z/qe5/QN6jcabnna6d1N2GQySBLVK1bk0ZTldKKJg6zKMKSvEYpeYXSB6ImRBHUqcM4BOO4vBrYT60CjGvsRgiCY5jfDc2SLG793inCkXAVYCr34Ws48wrZJQZzxX4lsmAmrghfFmH/hdNNJdhsU/MZmrb9QmDVdtSsm45MeLrWvpEz5AetZC3y2tAsrhk/2+HX3s+U5sfG5Y0ilzSc9M+aV67UWqEucyayWVUh8xDZddjdrmSpYcM5LMiLdooq7XrvlRDmZDSQpOPmXOJS9bF3NRYXVQdHqF
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

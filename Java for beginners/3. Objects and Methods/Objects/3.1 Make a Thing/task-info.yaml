@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Thing myThing = new Thing();
+    is_correct: true
+  - text: Thing someThing = Thing();
+    is_correct: false
+  - text: Thing Thing = new Thing();
+    is_correct: false
+files:
+  - name: src/Thing.java
+    visible: true
+    encrypted_text: HRXImEgiHDgGKpUTsG5aRlIaILNNMhcw//z072bDxJLQhmjcEu1vH8BWhDQrojFI
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

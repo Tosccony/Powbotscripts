@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/Substrings.java
+    visible: true
+    encrypted_text: XoSRPc5pegRhXdQY4NVy2yMpXfI4JuJrD5IfhLpq+p76LZv4cmVPw7KdcqfGiz7VMHgxNvXEIcsT9MlAEDk1iQ4kAzOKpDWnm8JRM52Riaoe+tOL1zaIjuu4TUoAbkYRzqdYw4mE99HducDW6h9JF7RrwZGXy8Qf0JDzVH6kHxhgYhVsVI5rhLD3dlkC9GkC59RJ951IFc8P+FYuP78wPyxzl7RScAToQLAQLvLjLOQz+1iEio/RklYgOaIpRHFyBZADKDCdViCm1q0RAXXP3wOJE+Sul9kc4gLgoS21BXYnlyDu0h4ESUG+cF3XX1XxwB1T6i2KArS+W5MU1F8Rpk1MfWGXwhuG2bESHwfPGnGG7dOxanBwx4HSCBc8/y3bnpwI1gEgr8prQiJX5Y1IzC/Yt723V0GKUAS3nY0wCpuUo/zHKlrnV823g50oypplM+Oh/WSylClJhflnONVlMI7y/LF+TL9QLs8uTgWn9RA=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

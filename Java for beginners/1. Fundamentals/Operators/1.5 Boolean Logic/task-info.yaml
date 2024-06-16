@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "true"
+    is_correct: true
+  - text: "false"
+    is_correct: false
+files:
+  - name: src/BooleanLogic.java
+    visible: true
+    encrypted_text: Haf8WdUKtwyHdsty4eMqLKcqQ0s+0hh0Pg9LqpE5N92Dni5tw1WvwJtyYFevRX7Vm8MfBUh4p9nhiV7wD6ETj7fYG6pZQhtKlpf4fzm+axF7rUfoKgukuwoytjF0K8EsbxXlr6GQMWla7o29dT2gKQ5IstuRezL1c99VVK9Zq8d2QpgSr1ZSCo8eZfHEeKffY9GdYXlXPAQ51lT+xJkuus1eHwZzeSQeFPNuV362/ti3BDXQSuA/eCxDRf27Pr4hygfGamPBBKtp00XD9m2nMZkJ1rOU53bf9sxLGNrQoJQir9kP+oxXMwMpH39f/OHjwOok8VKLOSXQywJVn7MAs2VHWFmb8cZFz7auGN9bxNyN2XZk8SyQdbVCEmij+3hsMPNnDiYLeVqsJvDKRXOhf1Tj1u81t0FGaORCdY6LdKUpaHZlXS1dGCM8iwaCgcFPL8qnUIUsWIgasOtzWcUoiZhAjDCUW9mss8cvsRirqr/HJbCa0t0zcmnqNLSb5V4B
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true
