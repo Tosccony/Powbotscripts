@@ -1,7 +1,7 @@
 package org.Woodcutting.Tasks;
 
 import org.Woodcutting.Task;
-import org.Woodcutting.Woodcutting;
+import org.Woodcutting.Mining;
 import org.powbot.api.Condition;
 import org.powbot.api.Random;
 import org.powbot.api.Tile;
@@ -9,7 +9,7 @@ import org.powbot.api.rt4.*;
 import org.powbot.api.rt4.walking.model.Skill;
 
 public class Willow extends Task {
-    Woodcutting main;
+    Mining main;
 
     public Willow() {
         super();
