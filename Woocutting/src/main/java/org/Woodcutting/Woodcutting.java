@@ -60,10 +60,5 @@ public class Woodcutting extends AbstractScript {
                 break;
             }
         }
-
-
-
-
-
     }
 }

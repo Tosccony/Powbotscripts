@@ -20,7 +20,7 @@ public class Banking extends Task {
 
     @Override
     public boolean shouldExecute() {
-        return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute(); //&& !new Ge().shouldExecute();
+        return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute(); //&& !new Ge(this).shouldExecute();
 
         //return Inventory.isEmpty() || (Inventory.isFull() && Inventory.stream().name("Toadflax").count() == 28)
         //      || Inventory.stream().count() == 14 || Inventory.stream().name("Toadflax potion (unf)").count() == 28;
@@ -44,6 +44,16 @@ public class Banking extends Task {
                     System.out.println("Withdrew Items, waiting for update");
                     Condition.wait(() -> Inventory.stream().name("Grimy toadflax").isNotEmpty(), 350, 10);
                 }
+            }
+            if (Bank.stream().name("Grimy Toadflax").isEmpty() && (Bank.stream().name("Toadflax").isEmpty())){
+                    //&& Inventory.stream().name("Toadflax").isEmpty()){
+                    Bank.depositInventory();
+                    Bank.withdrawModeNoted(true);
+                    if (Bank.withdrawModeNoted(true)) {
+                    System.out.println("Withdrew Items");
+                    Bank.withdraw("Toadflax potion (unf)", Bank.Amount.ALL);
+                }
+            }
                 if (Random.nextBoolean()) {
                     System.out.println("Banking.close()");
                     Bank.close();
@@ -51,7 +61,6 @@ public class Banking extends Task {
                     System.out.println("Input.back()");
                     Input.back();
                 }
-            }
         }
     }
 }

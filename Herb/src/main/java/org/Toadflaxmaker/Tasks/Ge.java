@@ -19,16 +19,14 @@ public class Ge extends Task {
     @Override
     public boolean shouldExecute() {
         return Bank.stream().name("Grimy toadflax").isEmpty() && Bank.stream().name("Toadflax").isEmpty()
-                && Inventory.stream().name("Grimy toadflax").isEmpty() && Inventory.stream().name("Toadflax").isEmpty();
+                && Inventory.stream().name("Grimy toadflax").isEmpty() && Inventory.stream().name("Toadflax").isEmpty()
+                && Inventory.stream().name("Toadflax potion (unf)").count()>15;
     }
     @Override
     public void execute() {
-        if (Inventory.stream().name("Toadflax potion (unf)").isEmpty()) {
-            Bank.depositInventory();
-            Bank.withdrawModeNoted(true);
-            Bank.withdraw("Toadflax potion (unf)", Bank.Amount.ALL);
-            Bank.close();
-        } else {
+        if (Inventory.stream().name("Toadflax potion(unf)").count()>15){
+                GrandExchange.open();
+        }else {
             if (!GrandExchange.opened()) {
                 GrandExchange.open();
                 slots.forEach(slot -> {
@@ -50,6 +48,7 @@ public class Ge extends Task {
                     }
                 });
             }
+        }
             if (!GrandExchange.allSlots().isEmpty()) {
                 slots.forEach(slot -> {
                     if (slots.get(1).isFinished()) {
@@ -67,9 +66,9 @@ public class Ge extends Task {
                     }
                 });
             }
-        }
     }
 }
+
 
 
 

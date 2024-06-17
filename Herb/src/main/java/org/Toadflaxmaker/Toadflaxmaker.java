@@ -1,10 +1,8 @@
 package org.Toadflaxmaker;
 
 import org.Toadflaxmaker.Tasks.*;
-import org.powbot.api.rt4.Bank;
-import org.powbot.api.rt4.GeSlot;
-import org.powbot.api.rt4.GrandExchange;
-import org.powbot.api.rt4.Players;
+import org.powbot.api.ItemCache;
+import org.powbot.api.rt4.*;
 import org.powbot.api.rt4.walking.model.Skill;
 import org.powbot.api.script.AbstractScript;
 import org.powbot.api.script.ScriptCategory;
@@ -33,7 +31,7 @@ public class Toadflaxmaker extends AbstractScript {
     public int pot = 3003;
     public int vial = 227;
     public int quantity = 150;
-    public int quantity_s = (int) Bank.stream().name("Toadflax potion (unf)").count(true);
+    public int quantity_s = (int) Inventory.stream().name("Toadflax potion (unf)").count(true);
     public boolean shouldbuy = true;
     public boolean shouldsell = false;
 
@@ -49,7 +47,7 @@ public class Toadflaxmaker extends AbstractScript {
         addPaint(paint);
         cost = GrandExchange.getItemPrice(herb)+GrandExchange.getItemPrice(pot)+GrandExchange.getItemPrice(vial);
         quantity = 150;
-        quantity_s = (int) Bank.stream().name("Toadflax potion (unf)").count(true);
+        quantity_s = (int) Inventory.stream().name("Toadflax potion (unf)").count(true);
         shouldbuy = true;
         shouldsell = false;
         DaxWalker.blacklistTeleports(Teleport.values());

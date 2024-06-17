@@ -1,4 +1,4 @@
-package org.Woodcutting;
+package org.Mining;
 
 public abstract class Task {
 

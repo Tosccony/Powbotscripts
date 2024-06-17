@@ -1,6 +1,8 @@
-package org.Woodcutting;
+package org.Mining;
 
-import org.Woodcutting.Tasks.*;
+
+import org.Mining.Tasks.Banking;
+import org.Mining.Tasks.Miningfirst;
 import org.powbot.api.Notifications;
 import org.powbot.api.Tile;
 import org.powbot.api.rt4.Movement;
@@ -29,20 +31,15 @@ public class Mining extends AbstractScript {
 
     @Override
     public void onStart(){
-        taskList.add(new Bankz());
-        //taskList.add(new Banking());
-        taskList.add(new WalkToBank());
-        taskList.add(new Tree());
-        taskList.add(new Oak());
-        taskList.add(new Willow());
-       // taskList.add(new Willow());
-        taskList.add(new Teak());
+        taskList.add(new Miningfirst());
+        taskList.add(new Banking());
+
     }
 
 
     @Override
     public void poll() {
-        if (Skill.Woodcutting.realLevel() == 55){
+        if (Skill.Mining.realLevel() == 55){
             Notifications.showNotification("Levels achieved going to Ge");
             Movement.moveTo(Ge);
             ScriptManager.INSTANCE.stop();
@@ -57,10 +54,5 @@ public class Mining extends AbstractScript {
                 break;
             }
         }
-
-
-
-
-
     }
 }
