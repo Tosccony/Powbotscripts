@@ -1,6 +1,7 @@
 package org.Toadflaxmaker.Tasks;
 
 import org.Toadflaxmaker.Task;
+import org.Toadflaxmaker.Toadflaxmaker;
 import org.powbot.api.Condition;
 import org.powbot.api.Input;
 import org.powbot.api.Random;
@@ -19,7 +20,7 @@ public class Banking extends Task {
 
     @Override
     public boolean shouldExecute() {
-        return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute() && !new Ge().shouldExecute();
+        return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute(); //&& !new Ge().shouldExecute();
 
         //return Inventory.isEmpty() || (Inventory.isFull() && Inventory.stream().name("Toadflax").count() == 28)
         //      || Inventory.stream().count() == 14 || Inventory.stream().name("Toadflax potion (unf)").count() == 28;

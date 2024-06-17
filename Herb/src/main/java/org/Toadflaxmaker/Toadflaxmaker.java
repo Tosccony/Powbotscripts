@@ -2,6 +2,7 @@ package org.Toadflaxmaker;
 
 import org.Toadflaxmaker.Tasks.*;
 import org.powbot.api.rt4.Bank;
+import org.powbot.api.rt4.GeSlot;
 import org.powbot.api.rt4.GrandExchange;
 import org.powbot.api.rt4.Players;
 import org.powbot.api.rt4.walking.model.Skill;
@@ -27,7 +28,6 @@ public class Toadflaxmaker extends AbstractScript {
     }
 
     ArrayList<Task> taskList = new ArrayList<>();
-
     public int cost =  GrandExchange.getItemPrice("Grimy toadflax"+GrandExchange.getItemPrice("Toadflax potion (unf)"));
     public int herb = 3049;
     public int pot = 3003;
@@ -47,6 +47,11 @@ public class Toadflaxmaker extends AbstractScript {
                 .trackSkill(Skill.Herblore)
                 .build();
         addPaint(paint);
+        cost = GrandExchange.getItemPrice(herb)+GrandExchange.getItemPrice(pot)+GrandExchange.getItemPrice(vial);
+        quantity = 150;
+        quantity_s = (int) Bank.stream().name("Toadflax potion (unf)").count(true);
+        shouldbuy = true;
+        shouldsell = false;
         DaxWalker.blacklistTeleports(Teleport.values());
         taskList.add(new Banking());
         taskList.add(new Cleaning());
