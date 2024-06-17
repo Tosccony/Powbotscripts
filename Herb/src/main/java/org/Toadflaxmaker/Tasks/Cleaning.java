@@ -25,8 +25,8 @@ public class Cleaning extends Task {
             Item herb = Inventory.itemAt(i);
             if (herb.name().contains("Grimy")) {
                 herb.interact("Clean");
-                System.out.println("CLEANING FUCKING HERBS BOISSS");
-                Condition.sleep(Random.nextInt(150, 140));
+                System.out.println("Cleaning herbs");
+                Condition.sleep(Random.nextInt(175, 225));
             }
         }
     }

@@ -22,7 +22,7 @@ public class Banking extends Task {
         return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute() && !new Ge().shouldExecute();
 
         //return Inventory.isEmpty() || (Inventory.isFull() && Inventory.stream().name("Toadflax").count() == 28)
-          //      || Inventory.stream().count() == 14 || Inventory.stream().name("Toadflax potion (unf)").count() == 28;
+        //      || Inventory.stream().count() == 14 || Inventory.stream().name("Toadflax potion (unf)").count() == 28;
 
     }
 
@@ -39,23 +39,19 @@ public class Banking extends Task {
                         Condition.wait(() -> Inventory.stream().name("Vial of water").isNotEmpty(), 250, 10);
                     }
             } else {
-                if (Bank.stream().name("Grimy toadflax").isNotEmpty()) {
-                    if (Bank.withdraw("Grimy toadflax", Bank.Amount.ALL)) {
-                        System.out.println("Withdrew Items, waiting for update");
-                        Condition.wait(() -> Inventory.stream().name("Grimy toadflax").isNotEmpty(), 25, 10);
-                    }
-                    if (Bank.opened() && !shouldExecute()) {
-                        if (Random.nextBoolean()) {
-                            System.out.println("Banking.close()");
-                            Bank.close();
-                        } else {
-                            System.out.println("Input.back()");
-                            Input.back();
-                        }
-
-                    }
+                if (Bank.withdraw("Grimy toadflax", Bank.Amount.ALL)) {
+                    System.out.println("Withdrew Items, waiting for update");
+                    Condition.wait(() -> Inventory.stream().name("Grimy toadflax").isNotEmpty(), 350, 10);
+                }
+                if (Random.nextBoolean()) {
+                    System.out.println("Banking.close()");
+                    Bank.close();
+                } else {
+                    System.out.println("Input.back()");
+                    Input.back();
                 }
             }
         }
     }
 }
+
