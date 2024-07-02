@@ -18,7 +18,7 @@ public class Miningfirst extends Task {
 
     @Override
     public boolean shouldExecute() {
-        return Skill.Mining.realLevel() < 15 && Inventory.stream().name("Bronze pickaxe").isNotEmpty() && Tin.distance()<10;
+        return Skill.Mining.realLevel() < 14 && Inventory.stream().name("Bronze pickaxe").isNotEmpty() && Tin.distance()<10;
     }
 
     @Override
@@ -26,12 +26,12 @@ public class Miningfirst extends Task {
         if (Tin.distance() > 10) {
             Movement.moveTo(Tin);
         }
-        if (Inventory.stream().name("ore").count() <27) {
+        if (Inventory.stream().name("Tin ore").count() <27) {
             GameObject Ore = Objects.stream().name("Tin rocks").nearest().first();
             if (Ore.inViewport()) {
-                Ore.click();
+                Ore.interact("Mine");
                 System.out.println("We should be mining if not we fucked up");
-                Condition.wait(() -> !Ore.valid(), 250, 150);
+                Condition.wait(() -> !Ore.valid(), 150, 75);
             }
         } else if (Inventory.isFull()) {
             Game.tab(Game.Tab.INVENTORY);

@@ -7,20 +7,20 @@ import org.powbot.api.Input;
 import org.powbot.api.Random;
 import org.powbot.api.rt4.Bank;
 import org.powbot.api.rt4.Inventory;
+import org.powbot.mobile.Con;
 
 public class Banking extends Task {
+    Toadflaxmaker main;
 
-    public Banking() {
+    public Banking(Toadflaxmaker main) {
         super();
         this.name = "Banking";
+        this.main = main;
     }
-
-    public int NoteWidget = 12;
-    public int Icon = 25;
 
     @Override
     public boolean shouldExecute() {
-        return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute(); //&& !new Ge(this).shouldExecute();
+        return Inventory.isEmpty() || !new Craft().shouldExecute() && !new Cleaning().shouldExecute();
 
         //return Inventory.isEmpty() || (Inventory.isFull() && Inventory.stream().name("Toadflax").count() == 28)
         //      || Inventory.stream().count() == 14 || Inventory.stream().name("Toadflax potion (unf)").count() == 28;
@@ -45,23 +45,28 @@ public class Banking extends Task {
                     Condition.wait(() -> Inventory.stream().name("Grimy toadflax").isNotEmpty(), 350, 10);
                 }
             }
-            if (Bank.stream().name("Grimy Toadflax").isEmpty() && (Bank.stream().name("Toadflax").isEmpty())){
-                    //&& Inventory.stream().name("Toadflax").isEmpty()){
-                    Bank.depositInventory();
-                    Bank.withdrawModeNoted(true);
-                    if (Bank.withdrawModeNoted(true)) {
-                    System.out.println("Withdrew Items");
+            if (Bank.stream().name("Grimy toadflax").isEmpty() && Bank.stream().name("Toadflax").isEmpty()
+                 && Inventory.stream().name("Grimy toadflax").isEmpty() && Inventory.stream().name("Toadflax").isEmpty()){
+                Bank.depositInventory();
+                Bank.withdrawModeNoted(true);
+                if (Bank.withdrawModeNoted(true)) {
+                    System.out.println("Withdrew Potions");
                     Bank.withdraw("Toadflax potion (unf)", Bank.Amount.ALL);
+                    main.quantity_s = (int) Inventory.stream().name("Toadflax potion (unf)").count(true);
+                    Condition.wait(() ->Inventory.stream().name("Toadflax potion (unf)").isNotEmpty(),1000,10);
                 }
             }
-                if (Random.nextBoolean()) {
-                    System.out.println("Banking.close()");
-                    Bank.close();
-                } else {
-                    System.out.println("Input.back()");
-                    Input.back();
-                }
+            if (Random.nextBoolean()) {
+                System.out.println("Banking.close()");
+                Bank.close();
+                Condition.wait(() -> Bank.close(true), 250,10);
+            } else {
+                System.out.println("Input.back()");
+                Input.back();
+                Condition.wait(() ->Bank.close(true), 250,10);
+            }
         }
     }
 }
+
 

@@ -6,6 +6,7 @@ import org.powbot.api.Input;
 import org.powbot.api.Random;
 import org.powbot.api.rt4.Bank;
 import org.powbot.api.rt4.Inventory;
+import org.powbot.api.rt4.Item;
 import org.powbot.api.rt4.walking.model.Skill;
 
 //public class Banking extends Task {
@@ -66,3 +67,10 @@ import org.powbot.api.rt4.walking.model.Skill;
      //   }
    // }
 //}
+                    for (int Ring = 1; Ring < 28; Ring++) {
+Item Ring1 = Inventory.itemAt(Ring);
+                        Magic.Spell.ENCHANT_LEVEL_1_JEWELLERY.cast("Cast");
+//Condition.sleep(Random.nextInt(650,750));
+                        if (Ring1.name().contains("Sapphire ring")) {
+        Ring1.click();
+                            Condition.sleep(Random.nextInt(800,850));

@@ -18,27 +18,26 @@ public class Miningsecond extends Task {
 
     @Override
     public boolean shouldExecute() {
-        return Skill.Mining.realLevel() > 14 && Skill.Mining.realLevel() < 30 && Inventory.stream().name("Bronze pickaxe").isNotEmpty() && Iron.distance()<2;
-                //|| Skill.Woodcutting.realLevel() > 20 && Skill.Woodcutting.realLevel() < 30 && Inventory.stream().name("Mithril axe").isNotEmpty();
+        return Skill.Mining.realLevel() > 20 && Skill.Mining.realLevel() < 32 && Inventory.stream().name("Mithril pickaxe").isNotEmpty();
     }
 
     @Override
     public void execute() {
-        if (Iron.distance() > 3) {
+        if (Iron.distance() > 2) {
             Movement.moveTo(Iron);
         }
         Game.tab(Game.Tab.INVENTORY);
-        if (Inventory.stream().name("Tin ore").count() <27) {
-            GameObject Ore = Objects.stream().name("Iron rocks").nearest().first();
+        if (!Inventory.isFull()) {
+            GameObject Ore = Objects.stream().within(2).name("Iron rocks").nearest().first();
             if (Ore.inViewport()) {
-                Ore.click();
+                Ore.interact("Mine");
                 System.out.println("We should be mining if not we fucked up");
                 Condition.wait(() -> !Ore.valid(), 250, 150);
             }
         } else if (Inventory.isFull()) {
-            for (int i = 0; i < 28; i++) {
+            for (int i = 1; i < 28; i++) {
                 Item ores = Inventory.itemAt(i);
-                if (ores.name().contains("Tin ore")) {
+                if (ores.name().contains("ore")){
                     ores.interact("Drop");
                     System.out.println("Dropping ore");
                     Condition.sleep(Random.nextInt(150, 140));

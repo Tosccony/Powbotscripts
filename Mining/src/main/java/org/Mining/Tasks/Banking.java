@@ -17,9 +17,11 @@ public class Banking extends Task {
 
 
     public boolean shouldExecute() {
-    return Inventory.isEmpty() || Skill.Mining.realLevel() == 21 && Inventory.stream().name("Bronze pickaxe").isNotEmpty()
-           // || Skill.Woodcutting.realLevel() == 31 && Inventory.stream().name("Mithril axe").isNotEmpty()
-            || !new Miningfirst().shouldExecute(); //&& !new Oak().shouldExecute() && !new Willow().shouldExecute() && !new Teak().shouldExecute();
+    return Inventory.isEmpty() || Skill.Mining.realLevel() >= 21 && Inventory.stream().name("Bronze pickaxe").isNotEmpty()
+            || Skill.Mining.realLevel() >= 31 && Inventory.stream().name("Adamant pickaxe").isEmpty()
+            || Skill.Mining.realLevel() >= 41 && Inventory.stream().name("Rune pickaxe").isEmpty()
+            || !new Miningfirst().shouldExecute() && !new Miningsecond().shouldExecute()
+            && Bank.nearest().distance()< 10;
 }
 
 @Override
@@ -32,27 +34,25 @@ public void execute() {
             Bank.withdraw("Bronze pickaxe", 1);
             Condition.wait(() -> Inventory.stream().name("Bronze pickaxe").isNotEmpty(), 250, 10);
         }
-        if (Skill.Mining.realLevel() == 21) {
+        if (Skill.Mining.realLevel() >= 21 && Skill.Mining.realLevel() <=30) {
             Bank.withdraw("Mithril pickaxe", 1);
             Condition.wait(() -> Inventory.stream().name("Mithril pickaxe").isNotEmpty(), 250, 10);
         }
-        if (Skill.Mining.realLevel() == 31) {
+        if (Skill.Mining.realLevel() >= 31 && Skill.Mining.realLevel() <=40) {
             Bank.withdraw("Adamant pickaxe", 1);
             Condition.wait(() -> Inventory.stream().name("Adamant pickaxe").isNotEmpty(), 250, 10);
         }
-        if (Skill.Mining.realLevel() == 41) {
+        if (Skill.Mining.realLevel() >= 41) {
             Bank.withdraw("Rune pickaxe", 1);
             Condition.wait(() -> Inventory.stream().name("Rune pickaxe").isNotEmpty(), 250, 10);
         }
     }
-    if (Bank.opened() && !shouldExecute()) {
-        if (Random.nextBoolean()) {
-            System.out.println("Banking.close()");
-            Bank.close();
-        } else {
-            System.out.println("Input.back()");
-            Input.back();
+      //  if (Random.nextBoolean()) {
+         //   System.out.println("Banking.close()");
+        //    Bank.close();
+      //  } else {
+         //   System.out.println("Input.back()");
+         //   Input.back();
         }
     }
-}
-}
+

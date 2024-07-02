@@ -13,6 +13,7 @@ import org.powbot.dax.api.DaxWalker;
 import org.powbot.dax.teleports.Teleport;
 import org.powbot.mobile.script.ScriptManager;
 import org.powbot.mobile.service.ScriptUploader;
+import org.powbot.mobile.ui.modal.FieldData;
 
 import java.util.ArrayList;
 
@@ -24,14 +25,15 @@ public class Toadflaxmaker extends AbstractScript {
     public static void main(String[] args){
         new ScriptUploader().uploadAndStart("ToadflaxMaker 1.0.0", "", "127.0.0.1:5695", true, false);
     }
-
     ArrayList<Task> taskList = new ArrayList<>();
     public int cost =  GrandExchange.getItemPrice("Grimy toadflax"+GrandExchange.getItemPrice("Toadflax potion (unf)"));
     public int herb = 3049;
     public int pot = 3003;
     public int vial = 227;
-    public int quantity = 150;
+    public int quantity = 1000;
     public int quantity_s = (int) Inventory.stream().name("Toadflax potion (unf)").count(true);
+    public int vials = (int) Inventory.stream().name("Vial of water").count(false);
+    public int vials_price = 10;
     public boolean shouldbuy = true;
     public boolean shouldsell = false;
 
@@ -43,19 +45,19 @@ public class Toadflaxmaker extends AbstractScript {
                 .x(40)
                 .y(45)
                 .trackSkill(Skill.Herblore)
+                .trackInventoryItem(3003)
                 .build();
         addPaint(paint);
         cost = GrandExchange.getItemPrice(herb)+GrandExchange.getItemPrice(pot)+GrandExchange.getItemPrice(vial);
-        quantity = 150;
+        quantity = 1000;
         quantity_s = (int) Inventory.stream().name("Toadflax potion (unf)").count(true);
+        vials = (int) Inventory.stream().name("Vial of water").count(false);
         shouldbuy = true;
         shouldsell = false;
-        DaxWalker.blacklistTeleports(Teleport.values());
-        taskList.add(new Banking());
+        taskList.add(new Banking(this));
         taskList.add(new Cleaning());
         taskList.add(new Craft());
         taskList.add(new Ge(this));
-        //taskList.add(new WalkToBank());
     }
 
     @Override
