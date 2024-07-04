@@ -5,88 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bf54c62-9420-4898-a56f-10ed98435456" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Colo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Crafting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Agility/Agility1to30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Crafting/Craftingbank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Crafting/Craftinglvls1to33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Crafting/Craftinglvls33to42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Crafting/Craftinglvls42to46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Crafting/Craftinglvls46to61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Firemaking/Firebanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Firemaking/Fm15to30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Firemaking/Fm1to15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Firemaking/Fm30to49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Firemaking/FmWalkToBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/Cleaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/Crafting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/HerbBanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/WalkToBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Magic/Ge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Magic/MagicBanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Magic/lvls1to7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Magic/lvls7to25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/ThievBanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving1to5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving25to55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving5to25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningfourth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningthird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/WalkToBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Planker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Tasks/Banking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Tasks/Ge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Tasks/Planking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Woocutting/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Banking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Cleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Cleaning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Craft.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Craft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Ge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/Ge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Tasks/WalkToBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Magic/WalkToBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Toadflaxmaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herb/src/main/java/org/Toadflaxmaker/Toadflaxmaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Farming/Farming1to34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Aio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Aio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/Cleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/Cleaning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/Crafting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/Crafting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/HerbBanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Herblore/HerbBanking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving25to55.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving25to55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving5to25.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Magic/src/main/java/org/Aio/Thieving/Thieving5to25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Mining/Mining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Mining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Banking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningfirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningfirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningsecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningsecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Woocutting/src/main/java/org/Woodcutting/Tasks/Banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Woocutting/src/main/java/org/Woodcutting/Tasks/Banking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningfourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Mining/Tasks/Miningfourth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlankMaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlankMaker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Planker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Planker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Tasks/Ge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PlankMaker/src/main/java/org/PlankMaker/Tasks/Ge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Powbotscripts/Herb",
+    "last_opened_file_path": "D:/Powbotscripts/Mining",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"

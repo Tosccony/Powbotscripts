@@ -3,6 +3,7 @@ package org.Aio;
 import org.Aio.Agility.Agility1to30;
 import org.Aio.Agility.WalkToDraynor;
 import org.Aio.Crafting.*;
+import org.Aio.Farming.Farming1to34;
 import org.Aio.Fletching.FletchBanking;
 import org.Aio.Fletching.FletchWalkToBank;
 import org.Aio.Fletching.Fletching1to25;
@@ -18,7 +19,10 @@ import org.Aio.Thieving.ThievBanking;
 import org.Aio.Thieving.Thieving1to5;
 import org.Aio.Thieving.Thieving25to55;
 import org.Aio.Thieving.Thieving5to25;
+import org.powbot.api.Notifications;
 import org.powbot.api.Tile;
+import org.powbot.api.rt4.Bank;
+import org.powbot.api.rt4.Movement;
 import org.powbot.api.rt4.walking.model.Skill;
 import org.powbot.api.script.AbstractScript;
 import org.powbot.api.script.ScriptCategory;
@@ -40,6 +44,7 @@ public class Aio extends AbstractScript {
         new ScriptUploader().uploadAndStart("Aio Account Builder 1.0.0", "", "127.0.0.1:5715", true, false);
     }
     ArrayList<Task> taskList = new ArrayList<>();
+    Tile Ge = new Tile(3165, 3486, 0);
 
 
     @Override
@@ -54,6 +59,8 @@ public class Aio extends AbstractScript {
                 .trackSkill(Skill.Agility)
                 .trackSkill(Skill.Fletching)
                 .trackSkill(Skill.Hunter)
+                .trackSkill(Skill.Farming)
+                .trackSkill(Skill.Construction)
                 .build();
         addPaint(paint);
         if (Skill.Magic.realLevel() <=54) {
@@ -97,6 +104,16 @@ public class Aio extends AbstractScript {
                                     taskList.add(new Hunting43to60());
                                     taskList.add(new HunterBanking());
                                     taskList.add(new HuntingWalktoBank());
+                                }else {
+                                    if (Skill.Hunter.realLevel() >=25 && Skill.Herblore.realLevel() < 45) {
+                                        taskList.add(new Cleaning());
+                                        taskList.add(new Crafting());
+                                        taskList.add(new HerbBanking());
+                                    }else {
+                                        if (Skill.Herblore.realLevel() >=45 && Skill.Farming.realLevel() <34) {
+                                            taskList.add(new Farming1to34());
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -109,6 +126,17 @@ public class Aio extends AbstractScript {
 
     @Override
     public void poll() {
+        if (Skill.Farming.realLevel() == 34){
+            Notifications.showNotification("Levels achieved going to Ge");
+            Movement.moveTo(Ge);
+            if (Bank.opened()){
+                Bank.depositInventory();
+            } else if (!Bank.opened()) {
+                Bank.open();
+                Bank.depositInventory();
+            }
+            ScriptManager.INSTANCE.stop();
+        }
         for (Task task: taskList){
             System.out.println("Checking task: "+task.name);
             if (task.shouldExecute()) {

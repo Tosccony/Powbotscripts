@@ -10,6 +10,7 @@ import org.powbot.api.rt4.*;
 import org.powbot.api.rt4.walking.model.Skill;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Thieving5to25 extends Task {
     public Thieving5to25() {
@@ -26,9 +27,7 @@ public class Thieving5to25 extends Task {
     @Override
     public void execute() {
         Item Pouch = Inventory.stream().name("Coin pouch").first();
-        Item Bread = Inventory.stream().name("Bread").first();
-        Item Choco = Inventory.stream().name("Chocolate slice").first();
-        Item Cake = Inventory.stream().name("Cake").first();
+
         GameObject Baker = Objects.stream().within(2).id(11730).nearest().first();
         if (Ardy.distance() > 2) {
             if (Pouch.stackSize() > 0) {
@@ -40,9 +39,11 @@ public class Thieving5to25 extends Task {
                 if (Baker.inViewport()) {
                     Baker.interact("Steal-from");
                     Condition.wait(() -> !Baker.valid(), 150, 10);
-                    Inventory.drop(Bread, true);
-                    Inventory.drop(Choco, true);
-                    Inventory.drop(Cake, true);
+                }
+                if (Inventory.isFull()) {
+                    List<Item> Dropthieve = Inventory.stream().name("Cooking apple", "Banana", "Strawberry", "Jangerberries", "Lemon", "Redberries", "Pineapple",
+                            "Lime", "Strange fruit", "Golovanova fruit top", "Papaya fruit", "Bread", "Chocolate slice", "Cake").list();
+                    Inventory.drop(Dropthieve);
                 }
             }
         }

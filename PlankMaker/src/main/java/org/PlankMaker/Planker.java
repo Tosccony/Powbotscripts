@@ -25,7 +25,7 @@ import java.util.ArrayList;
 public class Planker extends AbstractScript {
 
     public static void main(String[] args){
-        new ScriptUploader().uploadAndStart("PlankMaker 1.0.0", "", "127.0.0.1:5705", true, false);
+        new ScriptUploader().uploadAndStart("PlankMaker 1.0.0", "", "127.0.0.1:5685", true, false);
     }
 
     ArrayList<Task> taskList = new ArrayList<>();

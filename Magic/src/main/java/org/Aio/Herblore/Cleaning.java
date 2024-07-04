@@ -17,7 +17,8 @@ public class Cleaning extends Task {
 
     @Override
     public boolean shouldExecute() {
-        return Inventory.stream().name("Grimy guam leaf").isNotEmpty() || Inventory.stream().name("Grimy harralander").isNotEmpty();
+        return Inventory.stream().name("Grimy guam leaf").isNotEmpty() || Inventory.stream().name("Grimy harralander").isNotEmpty()
+                || Inventory.stream().name("Grimy irit leaf").isNotEmpty();
     }
 
     @Override
@@ -32,7 +33,7 @@ public class Cleaning extends Task {
                 //Condition.sleep(Random.nextInt(175, 225));
                 //else {
                 herb.click();
-                System.out.println("Cleaning herbs Click");
+                System.out.println("Cleaning herbs");
                 Condition.sleep(Random.nextInt(175, 225));
             }
         }

@@ -24,18 +24,24 @@ public class HerbBanking extends Task {
             Bank.depositInventory();
             System.out.println("Finding Items");
             if (Bank.stream().name("Grimy guam leaf").isEmpty()) {
-                if (Bank.withdraw("Guam leaf", 14))
+                if (Bank.withdraw("Guam leaf", 14)) {
                     if (Bank.withdraw("Vial of water", 14)) {
                         System.out.println("Withdrew Items, waiting for update");
                         Condition.wait(() -> Inventory.stream().name("Vial of water").isNotEmpty(), 150, 10);
                     }
+                }
             }
             if (Bank.stream().name("Grimy harralander").isEmpty()) {
-                if (Bank.withdraw("Harralander", 14))
+                if (Bank.withdraw("Harralander", 14)) {
                     if (Bank.withdraw("Vial of water", 14)) {
                         System.out.println("Withdrew Items, waiting for update");
                         Condition.wait(() -> Inventory.stream().name("Vial of water").isNotEmpty(), 150, 10);
                     }
+                }
+            }
+            if (Bank.stream().name("Grimy irit leaf").isEmpty()) {
+                if (Bank.withdraw("Irit leaf", 14) && Bank.withdraw("Vial of water", 14)) {
+                    Condition.wait(() -> Inventory.stream().name("Vial of water").isNotEmpty(), 150, 10);
                 }
             }
             if (Bank.withdraw("Grimy guam leaf", Bank.Amount.ALL)) {
@@ -45,11 +51,18 @@ public class HerbBanking extends Task {
                 if (Bank.withdraw("Grimy harralander", Bank.Amount.ALL)) {
                     System.out.println("Withdrew Grimy harralander");
                     Condition.wait(() -> Inventory.stream().name("Grimy harralander").isNotEmpty(), 150, 10);
+                } else {
+                    if (Bank.withdraw("Grimy irit leaf", Bank.Amount.ALL)) {
+                        System.out.println("Withdrew Items, waiting for update");
+                        Condition.wait(() -> Inventory.stream().name("Grimy irit leaf").isNotEmpty(), 150, 10);
+                    }
                 }
             }
             if (Bank.close(false)) {
                 System.out.println("Closing Bank and Starting our task");
                 Bank.close();
+                Condition.wait(() -> Bank.close(true), 150,10);
             }
+        }
     }
 }

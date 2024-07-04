@@ -25,7 +25,7 @@ public class Mining extends AbstractScript {
 //127.0.0.1:5715
 
     public static void main(String[] args){
-        new ScriptUploader().uploadAndStart("Mining 1.0.0", "", "127.0.0.1:5705", true, false);
+        new ScriptUploader().uploadAndStart("Mining 1.0.0", "", "127.0.0.1:5715", true, false);
     }
 
     ArrayList<Task> taskList = new ArrayList<>();
@@ -54,7 +54,7 @@ public class Mining extends AbstractScript {
 
     @Override
     public void poll() {
-        if (Skill.Mining.realLevel() == 60){
+        if (Skill.Mining.realLevel() == 70){
             Notifications.showNotification("Levels achieved going to Ge");
             Movement.moveTo(Ge);
             if (Bank.opened()){

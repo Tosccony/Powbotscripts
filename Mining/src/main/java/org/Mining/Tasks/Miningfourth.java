@@ -11,14 +11,14 @@ public class Miningfourth extends Task {
 
     public Miningfourth() {
         super();
-        this.name = "Miningsecond";
+        this.name = "Miningfourth";
     }
 
     Tile Iron40 = new Tile(2338, 3640, 0);
 
     @Override
     public boolean shouldExecute() {
-        return Skill.Mining.realLevel() > 40 && Skill.Mining.realLevel() < 61 && Inventory.stream().name("Rune pickaxe").isNotEmpty();
+        return Skill.Mining.realLevel() > 40 && Skill.Mining.realLevel() < 71 && Inventory.stream().name("Rune pickaxe").isNotEmpty();
     }
 
     @Override

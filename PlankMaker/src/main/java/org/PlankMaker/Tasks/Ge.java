@@ -37,7 +37,7 @@ public class Ge extends Task {
                     System.out.println("Checking if slot is available");
                     if (slots.get(0).isAvailable()) {
                         System.out.println("Selling Planks");
-                        GrandExchange.createOffer(main.plank, main.quantity_s, main.plankcost, main.shouldsell);
+                        GrandExchange.createOffer(main.plank, main.quantity_s, 2000, main.shouldsell);
                         Condition.wait(()-> GrandExchange.currentSlot().isAvailable(), 150,10);
                     }
                     if (!slots.get(0).isAvailable()) {
